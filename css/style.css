@@ -13,8 +13,8 @@
   opacity: 0px;
 }
 
-.leftside img{
-    margin-top: 18%;
+.leftside img {
+  margin-top: 18%;
 }
 
 .rightside {
@@ -125,8 +125,7 @@ button {
 }
 
 #signupbutton:hover {
-    transform: scale(1.05);
-    
+  transform: scale(1.05);
 }
 #textname {
   width: 81px;
@@ -185,4 +184,166 @@ button {
   line-height: 27px;
   color: #73895d;
   text-decoration: none;
+}
+
+@media screen and (max-width: 360px) {
+  .fullform {
+    flex-direction: column;
+    background-color: #fcfeff;
+    box-shadow: none;
+ 
+  }
+
+  .leftside,
+  .rightside {
+    flex: 1;
+    padding: 10px;
+  }
+
+  .leftside img {
+    width: 250px;
+    height: 250px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 15%;
+  }
+
+  .formbody {
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 2%;
+  }
+
+  .forminput {
+    width: 340px;
+    height: 45px;
+    top: 32px;
+    gap: 0px;
+    border-radius: 28px;
+    opacity: 0px;
+    text-align: left;
+    margin-top: 1%;
+  }
+
+  .label {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    text-align: left;
+  }
+
+  ::placeholder {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    padding: 1.67px 2.5px 1.67px 2.5px;
+    gap: 0px;
+    opacity: 0.5px;
+  }
+
+  .logo {
+    margin-top: 0%;
+  }
+
+  .logoimg {
+    width: Hug (75.84px) px;
+    height: Hug (31px) px;
+    gap: 11.19px;
+    opacity: 0px;
+  }
+
+  h3 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 9%;
+    margin-top: -10%;
+  }
+
+  button {
+    width: 360px;
+    height: 45px;
+    left: 0px;
+    gap: 0px;
+    border-radius: 105px;
+    opacity: 0px;
+    text-align: left;
+    align-self: start;
+  }
+
+  #signupbutton {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22.5px;
+    text-align: left;
+    color: #fcfeff;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+  }
+  #textname {
+    width: 38px;
+    height: 18px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  #textname p {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+  }
+  .socialmedia {
+    width: Hug (130px) px;
+    height: Hug (30px) px;
+    gap: 20px;
+    opacity: 0px;
+  }
+
+  .socialmedia img {
+    width: 17.64px;
+    height: 18px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .phrase p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .phrase {
+    width: 211px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .phrase a {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .bottompart{
+    margin-left: 0%;
+    align-items: start;
+  }
 }
