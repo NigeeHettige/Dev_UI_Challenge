@@ -28,11 +28,13 @@
 }
 .logo {
   margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .logoimg {
   width: Hug (113.97px) px;
   height: Hug (49px) px;
-
   opacity: 0px;
 }
 
@@ -191,7 +193,6 @@ button {
     flex-direction: column;
     background-color: #fcfeff;
     box-shadow: none;
- 
   }
 
   .leftside,
@@ -210,12 +211,12 @@ button {
 
   .formbody {
     text-align: center;
-    margin-left: 1%;
+    margin-left: 0.5%;
     margin-right: 2%;
   }
 
   .forminput {
-    width: 340px;
+    width: 320px;
     height: 45px;
     top: 32px;
     gap: 0px;
@@ -250,14 +251,20 @@ button {
   }
 
   .logo {
-    margin-top: 0%;
+    width: 30%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
   }
 
   .logoimg {
-    width: Hug (75.84px) px;
-    height: Hug (31px) px;
-    gap: 11.19px;
-    opacity: 0px;
+    width: 75.84px;
+    height: 31px;
+    opacity: 1;
   }
 
   h3 {
@@ -267,18 +274,22 @@ button {
     line-height: 30px;
     text-align: left;
     margin-left: 9%;
-    margin-top: -10%;
+    margin-top: -4.5%;
+  }
+  .signup {
+    width: 320px;
+    height: 45px;
+    left: 0%;
   }
 
   button {
-    width: 360px;
+    width: 320px;
     height: 45px;
-    left: 0px;
+    left: 0%;
     gap: 0px;
     border-radius: 105px;
     opacity: 0px;
-    text-align: left;
-    align-self: start;
+    margin-top: 10px;
   }
 
   #signupbutton {
@@ -286,17 +297,19 @@ button {
     font-size: 15px;
     font-weight: 600;
     line-height: 22.5px;
-    text-align: left;
     color: #fcfeff;
     text-align: center;
     cursor: pointer;
     transition: transform 0.5s ease-in-out;
   }
+
   #textname {
     width: 38px;
     height: 18px;
     gap: 0px;
     opacity: 0px;
+    margin-left: 16%;
+    margin-top: 3%;
   }
 
   #textname p {
@@ -311,6 +324,8 @@ button {
     height: Hug (30px) px;
     gap: 20px;
     opacity: 0px;
+    margin-top: 10px;
+    margin-left: 12.5%;
   }
 
   .socialmedia img {
@@ -319,31 +334,33 @@ button {
     gap: 0px;
     opacity: 0px;
   }
-  .phrase p {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-  }
 
   .phrase {
-    width: 211px;
+    width: 90%;
     height: 24px;
     gap: 0px;
     opacity: 0px;
+    margin-top: -3%;
+    text-align: start;
+    margin-left: 5.3%;
+  }
+
+  .phrase p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
   }
 
   .phrase a {
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 24px;
-    text-align: left;
   }
 
-  .bottompart{
-    margin-left: 0%;
-    align-items: start;
+  .bottompart {
+    margin-left: 0;
+    text-align: center;
   }
 }
