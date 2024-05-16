@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" class="rel" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="../script/script.js"></script>
+    <title>Leaf</title>
+  </head>
+  <body>
+    <div class="fullform">
+      <!-- Left part of the form -->
+      <div class="leftside">
+        <center>
+          <img src="../assests/modal.png" alt="" />
+        </center>
+      </div>
+      <!-- Right part of the form -->
+
+      <div class="rightside">
+        <!-- Logo part -->
+        <center>
+          <div class="logo">
+            <img src="../assests/Logo.png" alt="" class="logoimg" />
+          </div>
+        </center>
+        <!-- Title part -->
+        <center>
+          <div class="title">
+            <h3>Create Account</h3>
+          </div>
+        </center>
+        <!-- Upper part of form -->
+        <div class="formbody">
+          <!-- Name form field -->
+          <div class="formfield">
+            <div class="label">
+              <label for="name">Full Name</label>
+            </div>
+            <div class="forminput">
+              <img src="../assests/icon/user.png" alt="" alt="" class="icon" />
+              <input type="text" placeholder="Enter Full Name" />
+            </div>
+          </div>
+          <!-- Email form field -->
+          <div class="formfield">
+            <div class="label">
+              <label for="email">Email</label>
+            </div>
+            <div class="forminput">
+              <img src="../assests/icon/mail.png" alt="" alt="" class="icon" />
+              <input type="email" placeholder="Enter Your email" />
+            </div>
+          </div>
+          <!-- Password form field -->
+          <div class="formfield">
+            <div class="label">
+              <label for="password">Password</label>
+            </div>
+            <div class="forminput">
+              <img src="../assests/icon/lock.png" alt="" class="icon" />
+              <input type="password" placeholder="Enter Your Password" />
+            </div>
+          </div>
+
+          <!-- Signup button -->
+          <div class="signup">
+            <button type="submit" id="signupbutton">Sign-up</button>
+          </div>
+        </div>
+
+        <!-- Bottom part of form -->
+        <center>
+          <div class="bottompart">
+            <div id="textname">
+              <p>-OR-</p>
+            </div>
+
+            <div class="socialmedia">
+              <img src="../assests/social/google.png" alt="" />
+              <img src="../assests/social/facebook.png" alt="" />
+              <img src="../assests/social/apple.png" alt="" />
+            </div>
+            <div class="phrase">
+              <p>
+                Already have an account?
+                <a href="#" onclick="animateSignupButton()">Login</a>
+              </p>
+            </div>
+          </div>
+        </center>
+      </div>
+    </div>
+  </body>
+</html>

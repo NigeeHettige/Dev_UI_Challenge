@@ -1,0 +1,188 @@
+.fullform {
+  display: flex;
+  background-color: #e9f8e5;
+  box-shadow: 7px 12px 31px 0px #0000002e;
+}
+
+.leftside {
+  width: 50%;
+  height: 1080px;
+  top: 20%;
+  left: 180px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.leftside img{
+    margin-top: 18%;
+}
+
+.rightside {
+  width: 960px;
+  height: 1080px;
+  left: 961px;
+  gap: 0px;
+  border-radius: 25px 0px 0px 25px;
+  opacity: 0px;
+  background-color: #fcfeff;
+}
+.logo {
+  margin-top: 16px;
+}
+.logoimg {
+  width: Hug (113.97px) px;
+  height: Hug (49px) px;
+
+  opacity: 0px;
+}
+
+.title {
+  margin-top: 16px;
+  align-items: center;
+}
+
+h3 {
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 51px;
+}
+
+.label {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  opacity: 80%;
+}
+
+::placeholder {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+.formbody {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.forminput {
+  display: flex;
+  width: 758.34px;
+  height: 68.55px;
+  top: 39.64px;
+  border-radius: 20px;
+  opacity: 0px;
+  margin-bottom: 16px;
+  margin-top: 19.64px;
+  align-items: center;
+  border: 1px solid black;
+  border-color: black;
+}
+
+input {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  padding: 2px 3px 2px 3px;
+  opacity: 0.5px;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+
+button {
+  width: 750px;
+  height: 70px;
+  top: 454.59px;
+  left: 4.17px;
+  margin-top: 39.64px;
+  border-radius: 30px 20px 30px 20px;
+  opacity: 0px;
+  background-color: #73895d;
+  outline: none;
+}
+
+#signupbutton {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  text-align: left;
+  color: #fcfeff;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+
+#signupbutton:hover {
+    transform: scale(1.05);
+    
+}
+#textname {
+  width: 81px;
+  height: 39px;
+  gap: 0px;
+  opacity: 0px;
+  align-items: center;
+}
+
+#textname p {
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 39px;
+  text-align: center;
+  color: #b0bac3;
+}
+
+.socialmedia {
+  display: flex;
+  width: 250px;
+  height: 50px;
+  gap: 36px;
+  opacity: 0px;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+.socialmedia img {
+  width: 30px;
+  height: 30px;
+  padding: 0px 0.6px 0px 0px;
+  gap: 0px;
+  opacity: 0.9px;
+}
+
+.phrase {
+  width: Hug (297px) px;
+  height: Hug (27px) px;
+  gap: 10px;
+  opacity: 0.9px;
+}
+
+.phrase p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #4a4a4a;
+}
+
+.phrase a {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #73895d;
+  text-decoration: none;
+}
